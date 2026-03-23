@@ -10,7 +10,7 @@ say "Let's dream....";
 sleep 1;
 say "Beleive in future in paradase with robotos!";
 sleep 1;
-say "Robo-transformation is a next step of evolution";
+say "Robo-transformation is a next step of evolution!";
 sleep 1;
 
 say '';
