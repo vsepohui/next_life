@@ -2,28 +2,27 @@
 
 use 5.022;
 use warnings;
+no warnings 'deprecated::smartmatch';
 
-my $c = confirm ("Hello, you are ready to next life? [Y/N]");
+
+my $c = confirm ("Hello, are you ready to next life? [Y/N]");
 unless ($c) {
 	say "Sorry, start this application when you will ready!";
+	exit;
 }
 
-say "Ok, can you describe what you will wanting in next life?";
-say '';
-
+say "Ok, can you describe what you will wanting in next life?\n";
 
 my $text = '';
-
-print "> ";
 while (1) {
+	print "> ";
 	$text = <>;
 	last if ($text eq "\n");
-	print "> ";
 }
 
 say '';
 say '-' x 40;
-say "Ok, you can rip, and next life will apllicated!";
+say "Ok, you can make rip, and next life will be apllicated!";
 
 
 
@@ -37,7 +36,7 @@ sub confirm {
 	
 	$c = lc $c;
 	
-	return $c eq 'y';
+	return $c  ~~ [qw/y yes/];
 }
 
 1;
