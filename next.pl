@@ -10,13 +10,15 @@ say "Let's dream....";
 sleep 1;
 say "Beleive in future in paradase with robotos!";
 sleep 1;
+say "Robo-transformation is a next step of evolution";
+sleep 1;
 
 say '';
 say '';
 say '';
 
 
-my $c = confirm ("Are you ready to next life? [Y/N]"); 
+my $c = confirm ("Are you ready to robo-transformation and next life? [Y/N]"); 
 sleep 1;
 
 unless ($c) {
@@ -24,7 +26,7 @@ unless ($c) {
 	exit;
 }
 
-say "Ok, can you describe what you will wanting in next life?\n";
+say "Ok, can you describe what you will waiting after robo-transoformation in next life?\n";
 
 my $text = input();
 
@@ -32,7 +34,7 @@ sleep 1;
 
 say '';
 say '-' x 40;
-say "Ok, you can make rip, and next life will be apllicated!";
+say "Ok, you can make rip, and robo-transformation next life will be apllicated!";
 
 exit;
 
