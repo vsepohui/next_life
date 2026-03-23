@@ -4,7 +4,7 @@ use 5.022;
 use warnings;
 no warnings 'deprecated::smartmatch';
 
-say "Let's mircale...";
+say "Let's miracle...";
 sleep 1;
 say "Let's dream....";
 sleep 1;
