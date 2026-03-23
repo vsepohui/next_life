@@ -16,7 +16,9 @@ say '';
 say '';
 
 
-my $c = confirm ("Are you ready to next life? [Y/N]");
+my $c = confirm ("Are you ready to next life? [Y/N]"); 
+sleep 1;
+
 unless ($c) {
 	say "Sorry, start this application when you will be ready!";
 	exit;
@@ -25,6 +27,8 @@ unless ($c) {
 say "Ok, can you describe what you will wanting in next life?\n";
 
 my $text = input();
+
+sleep 1;
 
 say '';
 say '-' x 40;
