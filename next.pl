@@ -34,7 +34,7 @@ sleep 1;
 
 say '';
 say '-' x 40;
-say "Ok, you can make rip, and robo-transformation next life will be apllicated!";
+say "Ok, you can make rip, and robo-transformation and next life will be apllicated!";
 
 exit;
 
