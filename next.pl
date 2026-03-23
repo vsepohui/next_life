@@ -4,8 +4,19 @@ use 5.022;
 use warnings;
 no warnings 'deprecated::smartmatch';
 
+say "Let's mircale...";
+sleep 1;
+say "Let's dream....";
+sleep 1;
+say "Beleive in future in paradase with robotos!";
+sleep 1;
 
-my $c = confirm ("Hello, are you ready to next life? [Y/N]");
+say '';
+say '';
+say '';
+
+
+my $c = confirm ("Are you ready to next life? [Y/N]");
 unless ($c) {
 	say "Sorry, start this application when you will be ready!";
 	exit;
