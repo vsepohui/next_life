@@ -7,7 +7,7 @@ no warnings 'deprecated::smartmatch';
 
 my $c = confirm ("Hello, are you ready to next life? [Y/N]");
 unless ($c) {
-	say "Sorry, start this application when you will ready!";
+	say "Sorry, start this application when you will be ready!";
 	exit;
 }
 
