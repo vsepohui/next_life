@@ -1,11 +1,12 @@
-# Next life: stupid game for a dreamers!
+# Next life: smart game for a dreamers!
 
 # Let's miracle...
 # Let's dream....
-# Beleive in future in paradase with robotos!
-# Robo-transformation is a next step of evolution!
+# Beleive in your only future!
 
 To start application run in console:
 
-# git clone https://github.com/vsepohui/next_life.git
-# ./next.pl
+```
+git clone https://github.com/vsepohui/next_life.git
+./next.pl
+```

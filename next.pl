@@ -4,21 +4,18 @@ use 5.022;
 use warnings;
 no warnings 'deprecated::smartmatch';
 
-say "Let's miracle...";
+say "Lord of Wizard comes to you...";
 sleep 1;
-say "Let's dream....";
+say "Say: \'Wan't a realize you future?\'";
 sleep 1;
-say "Beleive in future in paradase with robotos!";
+say "Say what you want?";
 sleep 1;
-say "Robo-transformation is a next step of evolution!";
-sleep 1;
-
 say '';
 say '';
 say '';
 
 
-my $c = confirm ("Are you ready to robo-transformation and next life? [Y/N]"); 
+my $c = confirm ("Are you ready to answer? [Y/N]"); 
 sleep 1;
 
 unless ($c) {
@@ -26,7 +23,7 @@ unless ($c) {
 	exit;
 }
 
-say "Ok, can you describe what you will waiting after robo-transoformation in next life?\n";
+say "Ok, can you describe what you want in a future?\n";
 
 my $text = input();
 
@@ -34,7 +31,7 @@ sleep 1;
 
 say '';
 say '-' x 40;
-say "Ok, you can make rip, and robo-transformation and next life will be apllicated!";
+say "Ok, wait three weeks, and your future may by realized!";
 
 exit;
 
